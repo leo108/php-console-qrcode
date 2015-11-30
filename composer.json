@@ -1,0 +1,19 @@
+{
+    "name": "leo108/php-console-qrcode",
+    "description": "A PHP program that can generate qrcode in linux console",
+    "require": {
+        "aferrandini/phpqrcode": "^1.0",
+        "symfony/console": "^2.7",
+        "symfony/process": "^2.7"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "leo108",
+            "email": "leo108@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"ConsoleQrCode\\": "src/"}
+    }
+}
