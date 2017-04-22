@@ -1,8 +1,9 @@
 #!/usr/bin/env php
 <?php
-use ConsoleQrCode\Application;
 
-require __DIR__ . '/vendor/autoload.php';
+use Leo108\ConsoleQrCode\Application;
 
-$application = new Application('Console QRcode', '0.1');
+require __DIR__.'/vendor/autoload.php';
+
+$application = new Application('Console QRcode', '0.2');
 $application->run();
